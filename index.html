@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Gym Meals</title>  
+    <style>
+    .jumbotron {
+    background-image: url("https://a259aa1c-df52-4d87-877d-b4a7af18f073.ws-eu03.gitpod.io/files/download/?id=a6dc518c-fd53-4d5f-8ef6-772a23483d14");
+}
+.display-4 {
+    font-family: Helvetica;
+}
+.services 
+{
+    margin: 90px auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+h2 
+{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    border-bottom-width: 5px;
+    text-decoration: underline;
+}
+h2 ::after {
+    content: '';
+    background: white;
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    height: 3px;
+}
+* {box-sizing: border-box}
+input[type=text], input[type=password] {
+width: 100%;
+font-size: 15px;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: white;
+}
+label{
+font-size: 15px;
+text-align: center;
+}
+input[type=text]:focus, input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+hr {
+border: 1px solid #f1f1f1;
+margin-bottom: 25px;
+}
+
+input[type=submit] {
+	background: lightgreen;
+	margin: 0 auto;
+	outline: 0;
+	color: black;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+
+input[type=submit]:focus {
+	background: white;
+	color: black;
+}
+
+input[type=submit]:hover {
+	background: white;
+}
+.signup {
+font-size: 15px;
+font-weight: bold;
+background-color: green;
+color: white;
+padding: 12px 24px;
+margin: 8px 0;
+border-radius: 4px;
+cursor: pointer;
+width: 8%;
+opacity: 0.8;
+outline: 0;
+}
+
+
+
+.formContainer {
+padding: 16px;
+}
+.formContainer p{
+font-size: 15px;
+}
+
+.nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px;
+}
+.nav li a {
+     color: black;
+    text-decoration: none;
+}
+blockquote {
+    border:none;
+    font-family: sans-serif;
+    margin-bottom:-30px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p {
+font-size:15px;
+}
+
+blockquote p:before { 
+content: open-quote;
+font-weight: bold;
+font-size:70px;
+color:lightblue;
+} 
+blockquote p:after { 
+content: close-quote;
+font-weight: bold;
+font-size:70px;
+color:lightblue;
+  
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.fa-facebook {
+  
+  color: black;
+  float: right;
+  margin-top: -10px;
+  margin-right: 0px;
+  text-align: right;
+}
+.fa-twitter {
+  
+  color:black;
+  float: right;
+  margin-top: -10px;
+  margin-right: 0px;
+  text-align: right;
+}
+.fa-youtube {
+  
+  color: black;
+  float: right;
+  margin-top: -10px;
+  margin-right: 0px;
+  text-align: right;
+}
+
+body {
+  background: #F5F5F5;
+  opacity: 1;
+}
+
+</style>
+</head>
+<body>
+
+<!--***NAVIGATION LINKS***  -->
+ <nav class="nav"> 
+  <ul class="ul">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="menus.html">Menus</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav> 
+<!-- ***TITLE OF THE PAGE*** -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 style="text-align:center" class="display-4">Gym Meals</h1>
+    <br>
+    <p style="text-align:center" class="lead">Join our monthly subscription to receive meals that will fuel your pre and post workouts at your door. Meals will be delivered 5 days a week based on your preferences.</p>
+    <br>
+    <p style="text-align:center">Sign up now for only<mark>29.99 a month</mark></p>
+  </div>
+</div>
+<!-- ***SERVICES SECTION*** -->
+<div class="features">
+<div class="services">
+<h2 style="text-decoration: underline"> Our Services</h2>
+</div>
+<div class="row">
+<div class="col-md-3 text-center">
+<h3>Fast Meal Delivery</h3>
+<p>You can always expect your delivery to be at your door the very same day.</p>
+</div>
+<div class="col-md-3 text-center">
+<h3>Delicious Meals</h3>
+<p>Always freshly prepared protein stacked meals allowing you to fuel your workouts and boost recovery after.</p>
+</div>
+<div class="col-md-3 text-center">
+<h3>Dedicated Service</h3>
+<p>We make a promise to our customers to always deliver excellent service. From quality of the food to promised delivery times, we'll always make sure you get what you deserve.</p>
+</div>
+<div class="col-md-3 text-center">
+<h3>Low Prices</h3>
+<p>With us you can always expect affordable prices. No hidden fee's and no extra charges.</p>
+</div>
+</div>
+</div>
+<br>
+<br>
+<!-- ***TESSTIMONIAL SECTION*** -->
+<h2 style="text-align: center">Testimonials</h2>
+<br>
+<br>
+<div class="quotes">
+<blockquote>
+<p style="text-align:center">Perfect addition to my workout routine. Ideal for any gym goer. Affordable prices too!
+                                                                                         <strong> - Darren </strong></p>
+</blockquote>
+<blockquote>
+<p style="text-align:center">Delicious Meals and fast delivery. Definitely will recommend
+                                                                <strong> - Jack </strong></p>
+</blockquote>
+<blockquote>
+<p style="text-align:center">Great customer service and tasty meals. Will stay with Gym meals for a while
+                                                                                  <strong> - Mary </strong></p>
+</blockquote>
+</div>
+<br>
+<br>
+<!-- ***sign up form*** -->
+<form>
+<div class="formContainer">
+<h1 class="sign-up" style="text-align:center">Sign Up Today!</h1>
+<hr>
+<label for="name"><b>Name</b></label>
+<input type="text" placeholder="Enter Name" name="name"
+required>
+<label for="email"><b>Email</b></label>
+<input type="text" placeholder="Enter Email" name="email" required>
+<label for="password"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="password" required>
+<label>
+<input type="checkbox" checked="checked" name="remember" style="marginbottom: 15px"> Remember me
+</label>
+<p>By creating an account you agree to our <a href="#"
+style="color:dodgerblue">Terms & Privacy</a></p>
+<div style="text-align:center">
+<button type="submit" class="signup">Sign Up</button>
+</div>
+</div>
+</form>
+ <!-- ***SOCIAL ICONS*** -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
+</body>
+<!-- ***FOOTER*** -->
+<footer>Copyright 2020</footer>
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Gym Meals</title>   
+    <style>
+    .header {
+    padding: 60px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jumbotron {
+    height: 30vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background: url("https://a259aa1c-df52-4d87-877d-b4a7af18f073.ws-eu01.gitpod.io/files/download/?id=c0c01f80-8155-48d2-a0bc-c4f5e2ed5366") no-repeat center center fixed; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
+
+* {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+    margin: 0 auto;
+}
+*:focus {
+	outline: 0;
+}
+
+body {
+	background: white;  
+    
+}
+
+h3 {
+	text-align: center;
+}
+
+
+
+.contact-form {
+	padding: 12px 24px 24px 24px;
+	margin: 48px 12px;
+	background: white;
+	border-radius: 4px;
+    
+}
+
+
+
+label {
+	font-size: 0.85em;
+	margin-left: 12px;
+    text-align: center;
+}
+
+
+
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    t
+}
+
+
+
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid green;
+}
+
+input[type=submit] {
+	background: #64B5F6;
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+input[type=submit]:focus {
+	background: #A5D6A7;
+	color: whitesmoke;
+}
+
+
+
+input[type=submit]:hover {
+	background: #2196F3;
+}
+
+.center {
+	text-align: center;
+}
+.nav li {
+    display: inline-block;
+    list-style-type: none; 
+    margin: 20px; 
+}
+.nav li a {
+     color: black;
+    text-decoration: none;
+}
+.lead {
+    text-align: center;
+    color: black;
+}
+.display-4 {
+    margin-bottom: 40px;
+    color: black;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.fa-facebook {
+  
+  color: black;
+  float: right;
+  margin-top: -10px;
+  margin-right: 0px;
+  text-align: right;
+}
+.fa-twitter {
+  
+  color:black;
+  float: right;
+  margin-top: -10px;
+  margin-right: 0px;
+  text-align: right;
+}
+.fa-youtube {
+  
+  color: black;
+  float: right;
+  margin-top: -10px;
+  margin-right: 0px;
+  text-align: right;
+}
+
+
+    </style> 
+
+</head>
+<body>
+<!-- ***NAVIGATION LINKS*** -->
+ <nav class="nav">
+  <ul class="ul">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="menus.html">Menus</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<!-- ***TITLE OF THE PAGE*** -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4" style="text-align:center">Contact Us</h1>
+    <p class="lead">Please feel free to drop us an email if you have any queries.</p>
+  </div>
+</div>
+<!-- ***CONTACT FORM*** -->
+<div class="contact-form">
+	<h3>Contact Form</h3>
+	<form action="#" name="contact_form">
+		<label for="first_name">First Name</label>
+		<input name="first_name" type="text" required placeholder="John"/>
+		<br>
+		<label for="last_name">Last Name</label>
+		<input name="last_name" type="text" required placeholder="Doe"/>
+		<br>
+		<label for="email">Email</label>
+		<input name="email" type="email" required placeholder="you@domain.com"/>
+		<br>
+		<label for="message">Message</label><br>
+		<textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+		<div class="center">
+			<input type="submit" value="Submit">
+		</div>
+	</form>	
+</div>
+ <!-- ***SOCIAL ICONS*** -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
+</body>
+<!-- ***FOOTER*** -->
+<footer>Copyright 2020</footer>
+</html>

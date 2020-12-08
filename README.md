@@ -1,45 +1,85 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+The project can be viewed here: https://f96ea5ca-d441-4e6e-8c61-18738f6383ff.ws-eu03.gitpod.io/
 
-Welcome USER_NAME,
+This is the main website to Gym Meals. It's created to be mobile responsive and navigate potential customers throughout the site.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+USER EXPERIENCE:
 
-## Gitpod Reminders
+(User Stories):
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+-First time visitor goals: As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-A blue button should appear to click: *Make Public*,
+-Returning visitor goals: As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
-Another blue button should appear to click: *Open Browser*.
+-Frequent visitor goals: As a frequent visitor, I want to be able to come back to the website to sign up for more meal delivery.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+(Design): 
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+-Colors: The website contains 3 main colors. Black, Snow white and White.
 
-## Updates Since The Instructional Video
+-Typography: The website was written mainly with Arial, Roboto and Sans-Serif.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+-Imagery: Unfortunately images could not load on the website even after series of attempts.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+FEATURES:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+(Languages Used):
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+-HTML5
+-CSS3
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+(Frameworks, Libraries and Programs used):
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+-Bootstrap 4.5: Bootstrap was used to assist with the responsiveness and styling of the website
 
---------
+-Hover.CSS: Hover.CSS was used on submit buttons and Social Media Icons to add the float transition while being hovered over
 
-Happy coding!
+-Git: Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+-Github: GitHub is used to store the projects code after being pushed from Git.
+
+
+TESTING:
+
+W3C markup validator: https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-f96ea5ca-d441-4e6e-8c61-18738f6383ff.ws-eu03.gitpod.io%2Findex.html
+                      https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-f96ea5ca-d441-4e6e-8c61-18738f6383ff.ws-eu03.gitpod.io%2Fmenus.html
+                      https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-f96ea5ca-d441-4e6e-8c61-18738f6383ff.ws-eu03.gitpod.io%2Fcontact.html
+
+
+-First time visitor goals: As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+Once Users open up the website they will see the features we offer and testimonials to reassure them about our offering.
+
+As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+The site has clear navigation bars to guide the user throughout the website.
+
+-Returning visitr goals: As a Returning visitor I want to be able to scroll through the menus page to find my favourite meals and their macronutrients.
+
+-Frequent visitor goals: As a frequent user, I want to be able to find if there are new meals added onto the Menu.
+
+
+
+(Bugs):
+
+-I wasn't able to load pictures onto the website.
+-My git push was denied everytime
+
+
+CREDITS:
+
+
+(Code):
+
+-The contact form was copied from here: https://www.freecodecamp.org/news/how-to-create-a-contact-form-with-css/
+
+(Content):
+
+-All content was created by the developer.
+
+
+(Acknowledgments):
+
+-The tutor from Kerry College has been very helpful.
